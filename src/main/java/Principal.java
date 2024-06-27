@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Cantidad en inventario: " + producto.getCantidad());
 
         // Calcular el valor total del producto
-        System.out.println("Valor total del inventario: " + producto.calcularValor());
+        System.out.println("Valor total del inventario de productos: " + producto.calcularValor());
 
         // Mostrar alerta de inventario
         producto.mostrarAlertaInventario();
